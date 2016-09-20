@@ -1077,69 +1077,64 @@ ul#nav li.current a { color: #F06000; }
    border-radius: 3px 0 0 3px;
 }
 
-.photoshop {
+.node {
   	width: 60%;
   	-moz-animation: photoshop 2s ease;
   	-webkit-animation: photoshop 2s ease;
 }
 .css {
-  	width: 95%;
+  	width: 97%;
   	-moz-animation: css 2s ease;
   	-webkit-animation: css 2s ease;
 }
 .html5 {
-  	width: 80%;
+  	width: 95%;
   	-moz-animation: html5 2s ease;
   	-webkit-animation: html5 2s ease;
 }
 .bootstrap {
-  	width: 95%;
+  	width: 99%;
   	-moz-animation: bootstrap 2s ease;
   	-webkit-animation: bootstrap 2s ease;
 }
-.foundation {
-  	width: 80%;
-  	-moz-animation: foundation 2s ease;
-  	-webkit-animation: foundation 2s ease;
-}
 .javascript {
-  	width: 50%;
+  	width: 70%;
   	-moz-animation: javascript 2s ease;
   	-webkit-animation: javascript 2s ease;
 }
 .angularjs {
-  	width: 30%;
+  	width: 80%;
   	-moz-animation: angularjs 2s ease;
   	-webkit-animation: angularjs 2s ease;
 }
 .ajax {
-  	width: 80%;
+  	width: 99%;
   	-moz-animation: ajax 2s ease;
   	-webkit-animation: ajax 2s ease;
 }
 .jquery {
-  	width: 60%;
+  	width: 90%;
   	-moz-animation: jquery 2s ease;
   	-webkit-animation: jquery 2s ease;
 }
 .json {
-  	width: 50%;
+  	width: 100%;
   	-moz-animation: json 2s ease;
   	-webkit-animation: json 2s ease;
 }
 .java {
-  	width: 50%;
+  	width: 60%;
   	-moz-animation: java 2s ease;
   	-webkit-animation: java 2s ease;
 }
-.android {
-  	width: 30%;
-  	-moz-animation: android 2s ease;
-  	-webkit-animation: android 2s ease;
+.jasmine{
+    width: 80%;
+  	-moz-animation: java 2s ease;
+  	-webkit-animation: java 2s ease;
 }
-@-moz-keyframes android{
+@-moz-keyframes jasmine{
   0%   { width: 0px;  }
-  100% { width: 30%;  }
+  100% { width: 80%;  }
 }
 @-moz-keyframes java{
   0%   { width: 0px;  }
@@ -1161,7 +1156,7 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 95%;  }
 }
-@-moz-keyframes photoshop {
+@-moz-keyframes node {
   0%   { width: 0px;  }
   100% { width: 60%;  }
 }
@@ -1179,27 +1174,23 @@ ul#nav li.current a { color: #F06000; }
 }
 @-moz-keyframes angularjs {
   0%   { width: 0px;  }
-  100% { width: 30%;  }
-}
-@-webkit-keyframes android {
-  0%   { width: 0px;  }
-  100% { width: 30%;  }
+  100% { width: 80%;  }
 }
 @-webkit-keyframes java {
   0%   { width: 0px;  }
-  100% { width: 30%;  }
+  100% { width: 50%;  }
 }
 @-webkit-keyframes json {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 100%;  }
 }
 @-webkit-keyframes ajax {
   0%   { width: 0px;  }
-  100% { width: 80%;  }
+  100% { width: 99%;  }
 }
 @-webkit-keyframes angularjs {
   0%   { width: 0px;  }
-  100% { width: 30%;  }
+  100% { width: 80%;  }
 }
 @-webkit-keyframes bootstrap {
   0%   { width: 0px;  }
@@ -1209,21 +1200,21 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
-@-webkit-keyframes photoshop {
-  0%   { width: 0px;  }
-  100% { width: 60%;  }
-}
 @-webkit-keyframes css {
   0%   { width: 0px;  }
-  100% { width: 90%;  }
+  100% { width: 95%;  }
 }
 @-webkit-keyframes html5 {
   0%   { width: 0px;  }
-  100% { width: 80%;  }
+  100% { width: 90%;  }
 }
 @-webkit-keyframes jquery {
   0%   { width: 0px;  }
   100% { width: 60%;  }
+}
+@-webkit-keyframes jasmine {
+  0%   { width: 0px;  }
+  100% { width: 80%;  }
 }
 
 /* ------------------------------------------------------------------ */
